@@ -3,6 +3,23 @@ Some properties like position and size get set by the game
 Feel free to play with things like color or font
 */
 
+body {
+  background-image: url("gd-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #000;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: -1;
+}
+
 html,
 body {
   padding: 0;
