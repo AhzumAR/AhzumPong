@@ -17,7 +17,7 @@ body::before {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
-  z-index: -1;
+  z-index: 0;
 }
 
 html,
@@ -32,6 +32,7 @@ body {
   position: absolute;
   background-image: url("paper.gif");
   background-size: cover;
+  z-index: 1;
 }
 
 #left-paddle {
