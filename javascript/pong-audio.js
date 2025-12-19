@@ -52,6 +52,8 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
+import * as Tone from "./Tone.js";
+
 export var ambientSound = new soundFile("TenseMusic.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
