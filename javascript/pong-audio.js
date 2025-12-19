@@ -52,7 +52,7 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("silence.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("Epic Battle Music Epic Dramatic Background Music Copyright Free Battle Music Light Of Darkness.mp3");
+export var ambientSound = new soundFile("Epic Singing.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
